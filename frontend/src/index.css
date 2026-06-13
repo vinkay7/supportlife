@@ -157,6 +157,11 @@ code {
     }
 }
 
+/* Hide platform badge */
+#emergent-badge {
+    display: none !important;
+}
+
 /* Hide content until GSAP reveals it (prevents FOUC on animated elements) */
 .slf-pre-reveal {
     opacity: 0;
