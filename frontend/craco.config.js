@@ -1,1 +1,83 @@
-Ly8gY3JhY28uY29uZmlnLmpzCmNvbnN0IHBhdGggPSByZXF1aXJlKCJwYXRoIik7CnJlcXVpcmUoImRvdGVudiIpLmNvbmZpZygpOwoKLy8gQ2hlY2sgaWYgd2UncmUgaW4gZGV2ZWxvcG1lbnQvcHJldmlldyBtb2RlIChub3QgcHJvZHVjdGlvbiBidWlsZCkKLy8gQ3JhY28gc2V0cyBOT0RFX0VOVj1kZXZlbG9wbWVudCBmb3Igc3RhcnQsIE5PREVfRU5WPXByb2R1Y3Rpb24gZm9yIGJ1aWxkCmNvbnN0IGlzRGV2U2VydmVyID0gcHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICJwcm9kdWN0aW9uIjsKCi8vIEVudmlyb25tZW50IHZhcmlhYmxlIG92ZXJyaWRlcyBjb25zdCBjb25maWcgPSB7CiAgZW5hYmxlSGVhbHRoQ2hlY2s6IHByb2Nlc3MuZW52LkVOQUJMRV9IRUFMVEhfQ0hFQ0sgPT09ICJ0cnVlIiwKfTsKCi8vIENvbmRpdGlvbmFsbHkgbG9hZCBoZWFsdGggY2hlY2sgbW9kdWxlcyBvbmx5IGlmIGVuYWJsZWQKbGV0IFdlYnBhY2tIZWFsdGhQbHVnaW47CmxldCBzZXR1cEhlYWx0aEVuZHBvaW50czsKbGV0IGhlYWx0aFBsdWdpbkluc3RhbmNlOwoKaWYgKGNvbmZpZy5lbmFibGVIZWFsdGhDaGVjaykgewogIFdlYnBhY2tIZWFsdGhQbHVnaW4gPSByZXF1aXJlKCIuL3BsdWdpbnMvaGVhbHRoLWNoZWNrL3dlYnBhY2staGVhbHRoLXBsdWdpbiIpOwogIHNldHVwSGVhbHRoRW5kcG9pbnRzID0gcmVxdWlyZSgiLi9wbHVnaW5zL2hlYWx0aC1jaGVjay9oZWFsdGgtZW5kcG9pbnRzIik7CiAgaGVhbHRoUGx1Z2luSW5zdGFuY2UgPSBuZXcgV2VicGFjayhlYWx0aFBsdWdpbigpOwp9CgpsZXQgd2VicGFja0NvbmZpZyA9IHsKICBlc2xpbnQ6IHsKICAgIGNvbmZpZ3VyZTogewogICAgICBleHRlbmRzOiBbInBsdWdpbjpyZWFjdC1ob29rcy9yZWNvbW1lbmRlZCJdLAogICAgICBydWxlczogewogICAgICAgICJyZWFjdC1ob29rcy9ydWxlcy1vZi1ob29rcyI6ICJlcnJvciIsCiAgICAgICAgInJlYWN0LWhvb2tzL2V4aGF1c3RpdmUtZGVwcyI6ICJ3YXJuIiwKICAgICAgfSwKICAgIH0sCiAgfSwKICB3ZWJwYWNrOiB7CiAgICBhbGlhczogewogICAgICAnQCc6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICdzcmMnKSwKICAgIH0sCiAgICBjb25maWd1cmU6ICh3ZWJwYWNrQ29uZmlnKSA9PiB7CgogICAgICAvLyBBZGQgaWdub3JlZCBwYXR0ZXJucyB0byByZWR1Y2Ugd2F0Y2hlZCBkaXJlY3RvcmllcwogICAgICAgIHdlYnBhY2tDb25maWcud2F0Y2hPcHRpb25zID0gewogICAgICAgICAgLi4ud2VicGFja0NvbmZpZy53YXRja09wdGlvbnMsCiAgICAgICAgICBpZ25vcmVkOiBbCiAgICAgICAgICAgICcqKi9ub2RlX21vZHVsZXMvKionLAogICAgICAgICAgICAnKiovLmdpdC8qKicsCiAgICAgICAgICAgICcqKi9idWlsZC8qKicsCiAgICAgICAgICAgICcqKi9kaXN0LyoqJywKICAgICAgICAgICAgJyoqL2NvdmVyYWdlLyoqJywKICAgICAgICAgICAgJyoqL3B1YmxpYy8qKicsCiAgICAgICAgXSwKICAgICAgfTsKCiAgICAgIC8vIEFkZCBoZWFsdGggY2hlY2sgcGx1Z2luIHRvIHdlYnBhY2sgaWYgZW5hYmxlZAogICAgICBpZiAoY29uZmlnLmVuYWJsZUhlYWx0aENoZWNrICYmIGhlYWx0aFBsdWdpbkluc3RhbmNlKSB7CiAgICAgICAgd2VicGFja0NvbmZpZy5wbHVnaW5zLnB1c2goaGVhbHRoUGx1Z2luSW5zdGFuY2UpOwogICAgICB9CiAgICAgIHJldHVybiB3ZWJwYWNrQ29uZmlnOwogICAgfSwKICB9LAp9OwoKd2VicGFja0NvbmZpZy5kZXZTZXJ2ZXIgPSAoZGV2U2VydmVyQ29uZmlnKSA9PiB7CiA canistersLy8gQWRkIGhlYWx0aCBjaGVjayBlbmRwb2ludHMgaWYgZW5hYmxlZAogIGlmIChjb25maWcuZW5hYmxlSGVhbHRoQ2hlY2sgJiYgc2V0dXBIZWFsdGhFbmRwb2ludHMgJiYgaGVhbHRoUGx1Z2luSW5zdGFuY2UpIHsKICAgIGNvbnN0IG9yaWdpbmFsU2V0dXBNaWRkbGV3YXJlcyA9IGRldlNlcnZlckNvbmZpZy5zZXR1cE1pZGRsZXdhcmVzOwoKICAgIGRldlNlcnZlckNvbmZpZy5zZXR1cE1pZGRsZXdhcmVzID0gKG1pZGRsZXdhcmVzLCBkZXZTZXJ2ZXIpID0+IHsKICAgICAgLy8gQ2FsbCBvcmlnaW5hbCBzZXR1cCBpZiBleGlzdHMKICAgICAgaWYgKG9yaWdpbmFsU2V0dXBNaWRkbGV3YXJlcykgewogICAgICAgIG1pZGRsZXdhcmVzID0gb3JpZ2luYWxTZXR1cE1pZGRsZXdhcmVzKG1pZGRsZXdhcmVzLCBkZXZTZXJ2ZXIpOwogICAgICB9CgogICAgICAvLyBTZXR1cCBoZWFsdGggZW5kcG9pbnRzCiAgICAgIHNldHVwSGVhbHRoRW5kcG9pbnRzKGRldlNlcnZlciwgaGVhbHRoUGx1Z2luSW5zdGFuY2UpOwoKICAgICAgcmV0dXJuIG1pZGRsZXdhcmVzOwogICAgfTsKICB9CgogIHJldHVybiBkZXZTZXJ2ZXJDb25maWc7Cn07Cgptb2R1bGUuZXhwb3J0cyA9IHdlYnBhY2tDb25maWc7Cg==
+// craco.config.js
+const path = require("path");
+require("dotenv").config();
+
+// Check if we're in development/preview mode (not production build)
+// Craco sets NODE_ENV=development for start, NODE_ENV=production for build
+const isDevServer = process.env.NODE_ENV !== "production";
+
+// Environment variable overrides const config = {
+  enableHealthCheck: process.env.ENABLE_HEALTH_CHECK === "true",
+};
+
+// Conditionally load health check modules only if enabled
+let WebpackHealthPlugin;
+let setupHealthEndpoints;
+let healthPluginInstance;
+
+if (config.enableHealthCheck) {
+  WebpackHealthPlugin = require("./plugins/health-check/webpack-health-plugin");
+  setupHealthEndpoints = require("./plugins/health-check/health-endpoints");
+  healthPluginInstance = new Webpack(ealthPlugin();
+}
+
+let webpackConfig = {
+  eslint: {
+    configure: {
+      extends: ["plugin:react-hooks/recommended"],
+      rules: {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+      },
+    },
+  },
+  webpack: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+    configure: (webpackConfig) => {
+
+      // Add ignored patterns to reduce watched directories
+        webpackConfig.watchOptions = {
+          ...webpackConfig.watckOptions,
+          ignored: [
+            '**/node_modules/**',
+            '**/.git/**',
+            '**/build/**',
+            '**/dist/**',
+            '**/coverage/**',
+            '**/public/**',
+        ],
+      };
+
+      // Add health check plugin to webpack if enabled
+      if (config.enableHealthCheck && healthPluginInstance) {
+        webpackConfig.plugins.push(healthPluginInstance);
+      }
+      return webpackConfig;
+    },
+  },
+};
+
+webpackConfig.devServer = (devServerConfig) => {
+  // Add health check endpoints if enabled
+  if (config.enableHealthCheck && setupHealthEndpoints && healthPluginInstance) {
+    const originalSetupMiddlewares = devServerConfig.setupMiddlewares;
+
+    devServerConfig.setupMiddlewares = (middlewares, devServer) => {
+      // Call original setup if exists
+      if (originalSetupMiddlewares) {
+        middlewares = originalSetupMiddlewares(middlewares, devServer);
+      }
+
+      // Setup health endpoints
+      setupHealthEndpoints(devServer, healthPluginInstance);
+
+      return middlewares;
+    };
+  }
+
+  return devServerConfig;
+};
+
+module.exports = webpackConfig;
