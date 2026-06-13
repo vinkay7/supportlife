@@ -2,18 +2,18 @@
 // Support Life Foundation — content source of truth (exact PDF content).
 // ===========================================================================
 
-export const FALLBACK_IMAGE =
-    'https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600';
+export const FALLBACK_IMAGE = '/images/hero-volunteers.png';
 
 export const IMAGES = {
-    heroVolunteers:
-        'https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920',
-    foodHands:
-        'https://images.unsplash.com/photo-1593113616828-6f22bca04804?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
-    distribution:
-        'https://images.unsplash.com/photo-1599928407261-9c4143401705?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
-    carryingBox:
-        'https://images.unsplash.com/photo-1588822534638-028d5ddc07ac?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
+    // Real Support Life Foundation photography (provided by the organization)
+    heroVolunteers: '/images/hero-volunteers.png',
+    foodHands: '/images/volunteers-1.png',
+    distribution: '/images/volunteers-2.png',
+    carryingBox: '/images/volunteers-1.png',
+    community: '/images/volunteers-2.png',
+    mission: '/images/volunteers-1.png',
+    sierraLeone: '/images/sierra-leone.png',
+    // Topical imagery for program themes without a dedicated org photo
     hotMeal:
         'https://images.unsplash.com/photo-1547592180-85f173990554?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
     education:
@@ -26,12 +26,6 @@ export const IMAGES = {
         'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
     fire:
         'https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
-    sierraLeone:
-        'https://images.unsplash.com/photo-1523805009345-7448845a9e53?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
-    community:
-        'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
-    mission:
-        'https://images.unsplash.com/photo-1559027615-cd4628902d4a?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600',
 };
 
 export const CONTACT = {
